@@ -1,11 +1,11 @@
 def setup():
     size(400, 400)
-    
+
 def draw():
     cabeca(200, 100, 50)
     cabeca(100, 50, 25)
     cabeca(300, 150, 60)
-    
+            
 def cabeca(x, y, tamanho):
     fill(216, 121, 94)
     ellipse(x, y, tamanho, tamanho)
