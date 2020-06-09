@@ -1,0 +1,11 @@
+def rot_rect(x, y, w, h, ang):
+    # push()
+    pushStyle()
+    pushMatrix()
+    translate(x, y)
+    rectMode(CENTER)
+    rotate(ang)
+    rect(0, 0, w, h)
+    popMatrix()
+    popStyle()
+    # pop()
